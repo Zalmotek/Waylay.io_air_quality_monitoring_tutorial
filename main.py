@@ -31,9 +31,9 @@ image2 = M5Img(128, 41, "res/co2_cloud.png", True)
 image3 = M5Img(16, 41, "res/dust.png", True)
 label0 = M5TextBox(36, 149, "PM1", lcd.FONT_Default, 0x2596be, rotate=0)
 label1 = M5TextBox(137, 149, "PM2.5", lcd.FONT_Default, 0x2596be, rotate=0)
-HttpStatus = M5TextBox(263, 209, "Text", lcd.FONT_Default, 0x2596be, rotate=0)
+HttpStatus = M5TextBox(263, 209, "Status", lcd.FONT_Default, 0x2596be, rotate=0)
 label2 = M5TextBox(251, 149, "PM10", lcd.FONT_Default, 0x2596be, rotate=0)
-ps = M5TextBox(9, 209, "Text", lcd.FONT_Default, 0x2596be, rotate=0)
+ps = M5TextBox(9, 209, "Waiting", lcd.FONT_Default, 0x2596be, rotate=0)
 
 
 # Describe this function...
